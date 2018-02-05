@@ -1,0 +1,185 @@
+var questionslist=[
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+  "button1" : "thaiger",
+  "button2" :  "tiger",
+  "button3" : "teger",
+  "button4" : "tiker",
+  "answer": "2",
+  "img" : "./picture/tiger.jpg"
+  },
+  {
+    "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "brid",
+    "button2" :  "biad",
+    "button3" : "bird",
+    "button4" : "bard",
+    "answer": "3",
+    "img" : "./picture/bird.jpg"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+  "button1" : "cat",
+  "button2" :  "cath",
+  "button3" : "cash",
+  "button4" : "cart",
+  "answer": "1",
+  "img" : "./picture/cat.jpg"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "chick",
+    "button2" :  "chiken",
+    "button3" : "chik",
+    "button4" : "chicken",
+    "answer": "4",
+    "img" : "./picture/chicken.jpg"
+  },
+  {
+    "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+  "button1" : "cown",
+  "button2" :  "cow",
+  "button3" : "corw",
+  "button4" : "crow",
+  "answer": "2",
+  "img" : "./picture/cow.png"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "crab",
+    "button2" :  "carb",
+    "button3" : "crap",
+    "button4" : "cab",
+    "answer": "1",
+    "img" : "./picture/crab.jpg"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+  "button1" : "elepant",
+  "button2" :  "elephant",
+  "button3" : "elphant",
+  "button4" : "elpant",
+  "answer": "2",
+  "img" : "./picture/elephant.jpg"
+  },
+  {
+    "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "girafe",
+    "button2" :  "giaffe",
+    "button3" : "giraffe",
+    "button4" : "giafe",
+    "answer": "3",
+    "img" : "./picture/giraffe.jpg"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+  "button1" : "hose",
+  "button2" :  "hosre",
+  "button3" : "hores",
+  "button4" : "horse",
+  "answer": "4",
+  "img" : "./picture/horse.jpg"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "lion",
+    "button2" :  "leon",
+    "button3" : "rion",
+    "button4" : "reon",
+    "answer": "1",
+    "img" : "./picture/lion.jpg"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "momkey",
+    "button2" :  "monkey",
+    "button3" : "mokey",
+    "button4" : "motkey",
+    "answer": "2",
+    "img" : "./picture/monkey.jpg"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "pandan",
+    "button2" :  "pada",
+    "button3" : "panda",
+    "button4" : "penda",
+    "answer": "3",
+    "img" : "./picture/panda.jpg"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "pangin",
+    "button2" :  "pengin",
+    "button3" : "panguin",
+    "button4" : "penguin",
+    "answer": "4",
+    "img" : "./picture/penguin.jpg"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "pig",
+    "button2" :  "pik",
+    "button3" : "big",
+    "button4" : "pike",
+    "answer": "1",
+    "img" : "./picture/pig.jpg"
+  },
+  {
+    "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "shrak",
+    "button2" :  "shark",
+    "button3" : "shak",
+    "button4" : "sark",
+    "answer": "2",
+    "img" : "./picture/shark.jpg"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "shinp",
+    "button2" :  "shrinp",
+    "button3" : "shrimp",
+    "button4" : "shimp",
+    "answer": "3",
+    "img" : "./picture/shrimp.jpg"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "turter",
+    "button2" :  "trutle",
+    "button3" : "tutle",
+    "button4" : "turtle",
+    "answer": "4",
+    "img" : "./picture/turtle.jpg"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "zebra",
+    "button2" :  "zeba",
+    "button3" : "zebar",
+    "button4" : "ceba",
+    "answer": "1",
+    "img" : "./picture/zebra.jpg"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "bat",
+    "button2" :  "rat",
+    "button3" : "sugar glider",
+    "button4" : "Chowder",
+    "answer": "3",
+    "img" : "./picture/sugar glider.jpg"
+  },
+  {
+  "question" : "เลือกคำศัพท์ที่ตรงกับภาพ ?",
+    "button1" : "bat",
+    "button2" :  "rat",
+    "button3" : "sugar glider",
+    "button4" : "Chowder",
+    "answer": "3",
+    "img" : "./picture/Sugar glider2.jpg"
+  }
+
+
+
+]

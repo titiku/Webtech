@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+      <script src="jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="Question.json"></script>
+    <script src="control.js"></script>
+
+    <script>
+          $(document).ready(function(){
+              $("button").click(function(){
+                  $(".start").hide();
+                    $(".mainbox").show();
+              });
+          });
+
+    </script>
+
+
+  </head>
+
+  <body>
+
+    <div class="start" style="width: 900px;height: fit-content">
+      <h1>Animal Vocabulary</h1>
+      <p>เลือกจำนวณข้อที่จะเล่น</p>
+      <div class="but">
+        <button type="button" name="10" onclick="question10()" onclick="location.href=game.html">10 ข้อ</button>
+        <button type="button" name="20" onclick="question20()">20 ข้อ</button>
+      </div>
+    </div>
+
+      <div id="main" hidden class="mainbox" style="width: 900px;height: fit-content">
+        <p id="demo">Time : 5</p>
+        <br>
+        <img id ="image" src="./picture/bird.jpg" style="width: 400px" >
+        <div id ="question" >Question ?</div>
+        <br>
+
+        <div class="button">
+          <label><input type="button" name="option" value="I'm a button!1"  id="button1" onclick="select1()"></label>
+            <label><input type="button" name="option" value="I'm a button!2"  id="button2" onclick="select2()"></label>
+          <br>
+            <label><input type="button" name="option" value="I'm a button!3"  id="button3" onclick="select3()"></label>
+            <label><input type="button" name="option" value="I'm a button!4"  id="button4" onclick="select4()"></label>
+        </div>
+      </div>
+
+      <div id="show"  hidden class="showbox" style="width: 900px;height: fit-content">
+        <h1>Show Score</h1>
+        <div class="but2">
+            <p id="score"></p>
+            <p id="time"></p>
+        </div>
+
+      </div>
+
+  </body>
+
+
+
+</html>

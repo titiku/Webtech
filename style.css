@@ -1,0 +1,94 @@
+body{
+     background-image:  url("./picture/bg.jpg");
+}
+
+.mainbox{
+
+  margin-top: 240px;
+  margin: auto;
+ border: 3px solid black;
+
+}
+
+img{
+      margin-left: 240px;
+
+}
+#demo{
+      text-align: right;
+
+      margin-right: 15px;
+      font-size: 25px;
+
+}
+
+#question{
+  margin-top:25px;
+  margin-left: 15px;
+  font-size: 25px;
+    margin-bottom:10px;
+}
+
+  .button{
+    text-align: center;
+      margin-bottom:15px;
+}
+#button1 ,#button2 ,#button3 ,#button4 {
+  color: green;
+  width: 400px;
+  height: 80px;
+  font-size: 20px;
+
+
+}
+
+
+#button1:hover, #button2:hover,#button3:hover,#button4:hover{
+  color: black;
+}
+
+#game {
+  color: red;
+  font-size: 30px;
+  text-align: center;
+
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.start{
+  margin-top: 240px;
+  margin: auto;
+ border: 3px solid black;
+ font-size: 30px;
+}
+.start button{
+  color: green;
+  width: 400px;
+  height: 80px;
+  font-size: 20px;
+}
+.but{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+.showbox {
+  margin-top: 240px;
+  margin: auto;
+ border: 3px solid black;
+}
+#score{
+  color: green;
+  font-size: 30px;
+  margin-bottom: 5px;
+    text-align: center;
+}
+#time{
+  color: green;
+  font-size: 30px;
+  margin-bottom: 50px;
+    text-align: center;
+}
